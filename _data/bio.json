@@ -93,7 +93,7 @@
       "company": "Allsop Lab, Institute of Biogenesis Research at John A. Burns School of Medicine",
       "position": "Undergraduate Research Assistant",
       "website": "https://www.ibr.hawaii.edu/343-2/richard-allsopp/",
-      "startDate": "Fall 2017",
+      "startDate": "2017",
       "endDate": "Present",
       "summary": "The Allsopp lab does research into healthy aging, centered around an enzyme that extends the telomeres of one’s DNA which prevents detrimental DNA damage.",
       "highlights": [
@@ -105,8 +105,8 @@
       "company": "The Counter, Kahala",
       "position": "Waiter",
       "website": "",
-      "startDate": "Summer 2017",
-      "endDate": "December 2019",
+      "startDate": "2017",
+      "endDate": "2019",
       "summary": "",
       "highlights": [
         "Developed skills in critical thinking, customer service, and multitasking."
@@ -116,28 +116,14 @@
   "volunteer": [
     {
       "organization": "American Cancer Society",
-      "website": "http://manoa.hawaii.edu/reis",
+      "website": "https://secure.acsevents.org/site/SPageServer?pagename=relay",
       "position": "Volunteer for Magic Island Relay for Life Committee",
-      "startDate": "Spring 2018",
+      "startDate": "2018",
       "endDate": "",
       "summary": "The Magic Island Relay for Life is a fundraising event held by the American Cancer Society to fund cancer research and public policy.",
       "highlights": [
         "Worked with a team to organize the silent auction, which raised over $10,000 dollars in funding."
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [

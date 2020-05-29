@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Eric",
+    "name": "Eric Lam",
     "label": "Student",
     "picture": "https://airyclam.github.io/images/eric.jpeg",
     "email": "lameric@hawaii.edu",
@@ -9,9 +9,9 @@
     "summary": "I am studying for a B.A. in Biochemistry at the University of Hawaii with a minor in Computer Science. I expect to graduate in Spring, 2021.",
     "location": {
       "address": "",
-      "postalCode": "96816",
+      "postalCode": "",
       "city": "Honolulu",
-      "countryCode": "USA",
+      "countryCode": "",
       "region": "Hawaii"
     },
     "profiles": [

@@ -2,15 +2,14 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: Candy Game
+permalink: projects/candygame
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-12-02
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Java
+  - Object Oriented Programming
+summary: I worked with a partner to develop a Java game using the EZJava library our professor provided.
 ---
 
 <div class="ui small rounded images">

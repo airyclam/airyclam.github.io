@@ -9,7 +9,7 @@ date: 2019-12-02
 labels:
   - Java
   - Object Oriented Programming
-summary: I worked with a partner to develop a Java game using the [EZJava library] (http://www2.hawaii.edu/~dylank/ics111/doc/).
+summary: A two-player candy collecting game I developed using the EZJava library.
 ---
 
 <div class="ui small rounded images">
@@ -19,9 +19,11 @@ summary: I worked with a partner to develop a Java game using the [EZJava librar
   <img class="ui image" src="../images/micromouse-circuit.png">
 </div>
 
-This was a project I completed with my partner in my first programming class where we designed a game that 
+This was a the final project I completed for ICS 111. The goal of the game is to avoid the graves and ghosts while collecting the moving candies. The player that collects the most candies while not bumping into the obstacles wins.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+The goal of the project was to get students used to working with the skills we learned in class which included file parsing, class structure, private/public member variables and member functions. 
+
+[Library Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/)
 
 Here is some code that illustrates how we read values from the line sensors:
 

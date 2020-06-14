@@ -12,7 +12,7 @@ labels:
 summary: A two-player candy collecting game I developed with a partner using the EZJava library.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/candygame.png">
   <img class="ui image" src="../images/candyinstructions.png">
 </div>
@@ -24,6 +24,5 @@ The goal of the project was to get used to working with the skills we learned in
 [Library Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/)
 
 Source: <a href="https://github.com/airyclam/CandyGame"><i class="large github icon"></i>airyclam/CandyGame</a>
-
 
 

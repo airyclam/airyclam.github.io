@@ -1,0 +1,25 @@
+I"<<p><img class="ui medium right floated rounded image" src="../images/vacay-home-page.png" /></p>
+
+<p>This is an implementation of a flight reservation system I made for ICS 211. The user navigates through a text-based menu to perform a variety of tasks such as:</p>
+<ul>
+  <li>Create a new passenger</li>
+  <li>Edit information for an existing passenger</li>
+  <li>Display all passenger information based on name</li>
+  <li>Display all passenger information based on number of segments flown</li>
+  <li>Book a reservation
+    <ul>
+      <li>If there’s no seats available on the flight, add the passenger to the waitlist</li>
+    </ul>
+  </li>
+  <li>Cancel a reservation
+    <ul>
+      <li>If there’s a waitlist, add passengers in order of the waitlist</li>
+    </ul>
+  </li>
+  <li>Display all flights with flight details</li>
+</ul>
+
+<p>In this project I gained experience working with various kinds of data structures and implementing them in a practical setting.</p>
+
+<p>Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a></p>
+:ET

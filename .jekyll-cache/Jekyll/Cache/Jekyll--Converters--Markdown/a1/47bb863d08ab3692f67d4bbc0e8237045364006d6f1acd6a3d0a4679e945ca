@@ -1,0 +1,9 @@
+I"Ö<p><img class="ui medium right floated rounded image" src="../images/vacay-home-page.png" /></p>
+
+<p>This is an implementation of a flight reservation system I made for ICS 211. The user navigates through a text-based menu to perform a variety of tasks including:
+#</p>
+
+<p>In this project I gained experience with full-stack web application design and associated technologies, including <a href="http://mongodb.com">MongoDB</a> for database storage, the <a href="http://getbootstrap.com/">Twitter Bootstrap</a> CSS Framework for the user interface, and Javascript for both client and server-side programming.</p>
+
+<p>Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a></p>
+:ET

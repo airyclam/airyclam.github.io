@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/candygame-square.png
-title: Candy Game
+title: Candy Collector
 permalink: projects/candygame
 # All dates must be YYYY-MM-DD format!
 date: 2019-12-02

@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Smile Travel
+image: images/plane-square.jpg
+title: Quick Trips
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-17
@@ -14,7 +14,7 @@ labels:
 summary: A flight reservation system I made using array lists, linked lists, and maps.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/plane.jpg">
 
 This is an implementation of a flight reservation system I made for ICS 211. The user navigates through a text-based menu to perform a variety of tasks such as:
 * Create a new passenger

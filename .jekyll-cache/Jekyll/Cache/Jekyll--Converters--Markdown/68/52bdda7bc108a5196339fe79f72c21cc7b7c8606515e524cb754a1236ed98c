@@ -1,0 +1,38 @@
+I"�<p><img class="ui medium right floated rounded image" src="../images/plane.jpg" /></p>
+
+<p>This is an implementation of a flight reservation system I made for ICS 211. The user navigates through a text-based menu to perform a variety of tasks such as:</p>
+<ul>
+  <li>Create a new passenger</li>
+  <li>Edit information for an existing passenger</li>
+  <li>Display all passenger information based on name</li>
+  <li>Display all passenger information based on number of segments flown</li>
+  <li>Book a reservation
+    <ul>
+      <li>If there’s no seats available on the flight, add the passenger to the waitlist</li>
+    </ul>
+  </li>
+  <li>Cancel a reservation
+    <ul>
+      <li>If there’s a waitlist, add passengers in order of the waitlist</li>
+    </ul>
+  </li>
+  <li>Display all flights with flight details</li>
+</ul>
+
+<p>In this project I gained experience working with various kinds of data structures and implementing them in a practical setting. The most challenging part for me was figuring out how to structure the waitlist. I envisioned one linked list with all the names reserving a flight so that removing one name would move the others up, but I wasn’t sure exactly how to separate the top 5 as the passengers and the rest as the waitlist. I ended up making a for loop in the main class as shown below.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Prints out Passenger List and Waitlist</span>
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">flightMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">flightNumber</span><span class="o">).</span><span class="na">getSize</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span> 
+    <span class="k">if</span> <span class="o">(</span><span class="n">i</span><span class="o">&lt;</span><span class="mi">5</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Passenger"</span><span class="o">+</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">sum</span><span class="o">(</span><span class="n">i</span><span class="o">,</span><span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="s">". "</span> <span class="o">+</span> <span class="n">flightMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">flightNumber</span><span class="o">).</span><span class="na">output</span><span class="o">(</span><span class="n">i</span><span class="o">));</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Waitlist"</span><span class="o">+</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">sum</span><span class="o">(</span><span class="n">i</span><span class="o">,-</span><span class="mi">4</span><span class="o">)</span> <span class="o">+</span> <span class="s">". "</span> <span class="o">+</span> <span class="n">flightMap</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">flightNumber</span><span class="o">).</span><span class="na">output</span><span class="o">(</span><span class="n">i</span><span class="o">));</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+<p>Having the for loop in the main class ensures that the passenger and waitlist are up-to-date when called. One disadvantage of this setup is that if I wanted to call all the names in the waitlist, I would need to make an extra 5 iterations before getting access to the first name of the waitlist. This won’t be a waste if I always use passenger and waitlist together, however. If I did need them to be called separately, an arraylist would allow me to do this by looking up according to index. In the end, I think that the linked list is a better option for two reasons.</p>
+
+<ol>
+  <li>Removing an item from an arraylist takes up extra memory. In an arraylist, the remove  from having to copy the remaining items into a new array. With something like a waitlist, names are going to be taken on and off</li>
+</ol>
+
+<p>Source: <a href="https://github.com/airyclam/FlightSystem"><i class="large github icon"></i>airyclam/FlightSystem</a></p>
+:ET

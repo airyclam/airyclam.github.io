@@ -24,6 +24,6 @@ The goal of this project was to get used to working with the skills we learned i
 
 [EZJava Library Documentation](http://www2.hawaii.edu/~dylank/ics111/doc/)
 
-Source: <a href="https://github.com/airyclam/CandyGame"><i class="large github icon"></i>airyclam/CandyGame</a>
+Link to the game: <a href="https://github.com/airyclam/CandyGame"><i class="large github icon"></i>airyclam/CandyGame</a>
 
 

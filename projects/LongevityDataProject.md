@@ -5,7 +5,7 @@ image: images/cotton-square.png
 title: Machine Learning and Cytokines
 permalink: projects/dataproject
 # All dates must be YYYY-MM-DD format!
-date: Ongoing
+date: 2020-01-01
 labels:
   - Machine Learning
   - Data Analysis

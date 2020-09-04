@@ -1,0 +1,34 @@
+I"�<h2 id="athletic-software-engineering">Athletic Software Engineering</h2>
+
+<p>       Before taking software engineering at UH Manoa, I had never worked with javascript. I knew it was used to implement interactivity on web pages, but that was as much as I knew about the language. After doing a few homework and classwork exercises in javascript, I have realized how versatile it is. I no longer have to worry about data types and function outputs being consistent. Also, with so many useful functions in the standard library, I can complete a wide range of tasks with just a few lines of code.</p>
+
+<p>       The efficiency of javascript code makes the language especially suitable for Dr. Philip Johnson’s <a href="https://philipmjohnson.org/essays/athletic-software-engineering.html">athletic software engineering</a> teaching model, a model focused on teaching students to code quickly.</p>
+
+<blockquote> <em>  [Athletic Software Engineering] is a pedagogy in which some or all of the
+             course is organized into a series of skills to be acquired. For
+             each skill, students are given “workouts” (practice problems)
+             along with videos showing the instructor performing each
+             workout correctly, quickly, with verbal explanations of their
+             choice of tools and design techniques as they apply them.
+             Students are advised to repeat the workout until they can
+             complete it not just correctly, but in approximately the same
+             time as the instructor. </em> </blockquote>
+<p><em> Philip Johnson, Dan Port, Emily Hill <a href="http://cs.drew.edu/~emhill/papers/CSEET16.pdf">(2016)</a> </em></p>
+
+<p>       “Athletic software engineering” takes a page from sport pedagogy. In order to get good, you need to practice. Back in high school when I was training for varsity tennis tryouts, I would spend hours a day doing drills with my coach multiple times a week. We would practice all the different strokes in multiple different scenarios to ensure that I was ready for game day. Even after I got onto the varsity team, it just meant even more practicing. Nothing beats repetition when learning a new skill, and coding is no different. Sure the opponent / project may be different each time, but you’ll always be relying on your fundamentals to win.</p>
+
+<h2 id="first-impressions">First Impressions</h2>
+<p>       Today, I experienced my first in-class “Workout of the Day”. We were assigned into pairs to create a javascript function that would take a blackjack hand and calculate the point value. This function would return the point value if less than 21, return “Blackjack!” if exactly 21, or return “Bust!” if greater than 21. We had 15 minutes to implement this function, but it honestly felt more like 5 minutes. Although the assignment was pretty straightforward, I got caught into snags really quickly.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">1</span> <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">hand</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+<span class="mi">2</span>     <span class="k">if</span> <span class="p">(</span><span class="nx">hand</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">==</span> <span class="dl">"</span><span class="s2">T</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">K</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">Q</span><span class="dl">"</span> <span class="o">|</span> <span class="dl">"</span><span class="s2">J</span><span class="dl">"</span> <span class="p">)</span> <span class="p">{</span>
+<span class="mi">3</span>         <span class="nx">counter</span> <span class="o">+=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="mi">4</span>     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+<span class="mi">5</span>         <span class="nx">counter</span> <span class="o">+=</span> <span class="nx">hand</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+<span class="mi">6</span>     <span class="p">}</span>
+<span class="mi">7</span> <span class="p">}</span>
+</code></pre></div></div>
+<p>       This is what I wrote on my first attempt. After testing with print statements I realized that line 5 wasn’t going to work because the numbers were being read in as a string. To solve this, I had to either make cases for each number or make some sort of dictionary. I was running out of time and I didn’t feel comfortable enough with javascript yet to know how to make a dictionary (which I found out later is just an object with only key value pairs). My partner, Justin, was working on a solution with switch cases which seemed to be working, so we ended up hacking a gross 13 case switch statement in the last minute.</p>
+
+<p>       Being on a timer is definitely stressful, but also really exciting. Coding in my other computer science classes has always been working for hours miticulously</p>
+
+:ET

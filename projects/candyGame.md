@@ -15,10 +15,10 @@ summary: A two-player candy collecting game I developed with a partner using the
 
 <img class="ui medium right floated rounded image" src="../images/candyinstructions.png">
 
-This is the final project I completed for ICS 111. In this game, players avoid the graves and ghosts while collecting the moving candies. The player that collects the most candies while not bumping into the obstacles wins.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the final project I completed for ICS 111. In this game, players avoid the graves and ghosts while collecting the moving candies. The player that collects the most candies while not bumping into the obstacles wins.
 
 
-The goal of this project was to get used to working with the skills we learned in class which included file parsing, class structure, private/public member variables and member functions. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The goal of this project was to get used to working with the skills we learned in class which included file parsing, class structure, private/public member variables and member functions. 
 
 <img class="ui big center rounded image" src="../images/candygame.png">
 

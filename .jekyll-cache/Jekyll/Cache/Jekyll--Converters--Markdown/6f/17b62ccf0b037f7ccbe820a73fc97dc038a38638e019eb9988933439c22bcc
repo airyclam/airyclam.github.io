@@ -1,0 +1,20 @@
+I"
+<p>       In primary school we’re always taught the mantra “There are no dumb questions.” No one should feel ashamed for asking a question that other people know the answer to - that’s the very nature of a question. You ask a question to get answers on a topic you’re not as familiar with as someone else. However, there is a caveat to this statement. Although there are no dumb questions, there are definitely dumb ways to ask a question. Especially in computer science, you’re definitely going to run into problems you don’t know how to solve. In these cases, it is important to make sure to ask questions the “right” way for two reasons.</p>
+<ol>
+  <li>People can clearly understand what your problem is.</li>
+  <li>People will want to help you.</li>
+</ol>
+
+<p>       To describe what I mean, I’ll show some examples of “smartly worded” and “not smartly worded” questions found on StackOverflow.</p>
+
+<h3 id="dumb-question-1">Dumb Question #1</h3>
+<h4 id="noe-aysnc-doc-says-it-is-faster-than-async-and-why-can-it-be-faster">noe-aysnc doc says it is faster than async, and why can it be faster?</h4>
+<blockquote> referring to the doc, neo-async's benchmark shows it is faster than async. 
+             so, plz someone tell me why?
+             maybe I should dig into the code when I have time, but for now, if someone knows, plz.  </blockquote>
+<p><cite><a href="https://stackoverflow.com/questions/63843099/noe-aysnc-doc-says-it-is-faster-than-async-and-why-can-it-be-faster">— (u/briefy)</a> </cite></p>
+
+<p>       It seems almost surreal that someone would post this and think they would get an answer. First off, what are they even talking about? I’m assuming they read the documentation of some sort of library and they want to know more about how that library does a certain task faster than another… but that’s all I can decipher from this. It would be a lot more helpful if this person included a link to the documentation they’re looking at. If this library is not very popular, maybe even emailing the author directly might be better. The biggest problem here, though, is that <strong>the writer of this question does not seem to care</strong>. It reads like they’re texting a friend, even saying “maybe I should dig into the code <strong>when I have time</strong>”. If you’re not going to put in time to look for the answer to your question, or even the time to format your question coherently, don’t expect other people to spend the time to answer.</p>
+
+<h3 id="smart-question-1">Smart question #1</h3>
+:ET

@@ -8,6 +8,7 @@ labels:
   - Learning
   
 ---
+### The Art of Asking Questions  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In primary school we're always taught the mantra "There are no dumb questions." No one should feel ashamed for asking a question that other people know the answer to - that's the very nature of a question. You ask a question to get answers on a topic you're not as familiar with as someone else. However, there is a caveat to this statement. Although there are no dumb questions, there are definitely dumb ways to ask a question. Especially in computer science, you're definitely going to run into problems you don't know how to solve. In these cases, it is important to make sure to ask questions the "right" way for two reasons.
 1. People can clearly understand what your problem is.
 2. People will want to help you.

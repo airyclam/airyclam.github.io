@@ -1,0 +1,14 @@
+I"<p><img class="ui medium right floated rounded image" src="../images/candyinstructions.png" />
+       ICS 111: Introduction to Computer Science 1, is the first programming course in the computer science series at UH Manoa. Taught in Java, this class is focused on teaching students</p>
+
+<p>       This is the final project I completed for ICS 111. In this game, players avoid the graves and ghosts while collecting the moving candies. The player that collects the most candies while not bumping into the obstacles wins.</p>
+
+<p>      The goal of this project was to get used to working with the skills we learned in class which included file parsing, class structure, private/public member variables and member functions.</p>
+
+<p><img class="ui big center rounded image" src="../images/candygame.png" /></p>
+
+<p><a href="http://www2.hawaii.edu/~dylank/ics111/doc/">EZJava Library Documentation</a></p>
+
+<p>Link to the game: <a href="https://github.com/airyclam/CandyGame"><i class="large github icon"></i>airyclam/CandyGame</a></p>
+
+:ET

@@ -1,0 +1,14 @@
+I"j<p>       ICS 111: Introduction to Computer Science 1, is the first programming course in the computer science series at UH Manoa. Taught in Java, this class focuses on “problem solving, algorithm development, implementation, and debugging/testing using an object-oriented programming language.” <a href="http://www.catalog.hawaii.edu/courses/departments/ics.htm">(catalog)</a></p>
+
+<p>       “Candy Collector” is the final project I completed for ICS 111. In this game, players avoid the graves and ghosts while collecting the moving candies. The player that collects the most candies while not bumping into the obstacles wins. We created this game using the EZJava library provided by our professor (documentation below). This library provided a “visual” representation of our objects so that we could better understand how to interact with them.</p>
+
+<p>      The overall goal of this project was to get used to working with the skills we learned in class which included file parsing, class structure, private/public member variables and member functions. I think the most interesting part about creating this game for me was realizing that games (or any application) essentially run within a while loop.</p>
+
+<p><img class="ui medium center floated rounded image" src="../images/candyinstructions.png" />
+<img class="ui big center rounded image" src="../images/candygame.png" /></p>
+
+<p><a href="http://www2.hawaii.edu/~dylank/ics111/doc/">EZJava Library Documentation</a></p>
+
+<p>Link to the game: <a href="https://github.com/airyclam/CandyGame"><i class="large github icon"></i>airyclam/CandyGame</a></p>
+
+:ET

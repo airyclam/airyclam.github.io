@@ -1,0 +1,11 @@
+I"�<h2 id="importance-of-readable-code">Importance of Readable Code</h2>
+
+<p>       This past summer, I started working at Pacific Health Analytics Collaborative (PHAC), a research group that uses applied analytics to drive public health policy in Hawaii. Under this group, I’m currently assigned to a project to automate the creation of the yearly <a href="https://health.hawaii.gov/substance-abuse/files/2019/06/Alcohol_2018_Hawaii_State_Epidemiologic_Profile.pdf">epidemiological profiles</a> on drug and alcohol abuse. To create these profiles, data from various national surveys are compiled.</p>
+
+<p>       Someone on the team had previously fiddled with some of the survey data and graciously let me and my partner see some of the scripts he wrote as a reference. Right when I opened the scripts, I was surprised at how professional everything looked. There were headers for every function with @param and @return descriptions, and everything was neatly indented. Even though the original author was doing this alone as a side project, it was written so that pretty much anyone with light coding experience could understand. I want to write code like that.</p>
+
+<h2 id="eslint">ESLint</h2>
+
+<p>       In my software engineering class we are using a node module called ESLint to make sure our code follows the coding standards set by our professor. Although seeing all those red lines in my code gets really annoying, I think ESLint has been really helpful in developing good habits while writing my code. I hope that by the end of this semester, I’ll have learned from the different style errors I keep seeing pop up in my IDE, and be able to write clean code naturally.</p>
+
+:ET

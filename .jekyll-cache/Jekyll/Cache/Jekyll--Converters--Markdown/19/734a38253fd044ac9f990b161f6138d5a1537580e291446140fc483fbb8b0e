@@ -1,0 +1,7 @@
+I"�<h2 id="readability">Readability</h2>
+
+<p>       This past summer, I started working at Pacific Health Analytics Collaborative, a research group that uses applied analytics to drive public health policy in Hawaii. Under this group, I’m currently assigned to a project to automate the creation of the yearly <a href="https://health.hawaii.gov/substance-abuse/files/2019/06/Alcohol_2018_Hawaii_State_Epidemiologic_Profile.pdf">epidemiological profiles</a> on drug and alcohol abuse.</p>
+
+<p>       My  had previously fiddled with some of the survey data and graciously let me and my partner see some of the scripts he wrote as a reference. Right when I opened the scripts, I was surprised at how professional everything looked. There were headers for every function with @param and @return descriptions, everything was neatly indented and clear. Everything was so easy on the eyes. Even though he was working alone,</p>
+
+:ET

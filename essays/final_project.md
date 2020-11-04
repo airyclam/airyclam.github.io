@@ -8,7 +8,7 @@ labels:
   - Meteor
 ---
 ## Overview
-Although there's a wide range of information on COVID-19 available on the internet, it can be hard to find exactly what you need. There's currently no easy way to find the most up-to-date and accurate information about COVID-19 for Hawaii residents and visitors. Even within just government-sponsored websites like https://hawaiicovid19.com/ and https://health.hawaii.gov/coronavirusdisease2019/, there's just too much to look through. The call centers available are currently overloaded with people asking questions like "Where is the nearest testing center?" or "What do I do if my family member tested positive?"
+Although there's a wide range of information on COVID-19 available on the internet, it can be hard to find exactly what you need. There's currently no easy way to find the most up-to-date and accurate information about COVID-19 for Hawaii residents and visitors. Even within just government-sponsored websites like [https://hawaiicovid19.com/](https://hawaiicovid19.com/) and [https://health.hawaii.gov/coronavirusdisease2019/](https://health.hawaii.gov/coronavirusdisease2019/), there's just too much to look through. The call centers available are currently overloaded with people asking questions like "Where is the nearest testing center?" or "What do I do if my family member tested positive?"
 
 The goal of this project is to provide a one-stop-shop for COVID-19 information related to Hawaii. Besides the chatbot itself which is going to use the Dialogflow Google Cloud Service, we plan to implement two other pages accessible to the admin that allow for easy maintenance of this bot.
 

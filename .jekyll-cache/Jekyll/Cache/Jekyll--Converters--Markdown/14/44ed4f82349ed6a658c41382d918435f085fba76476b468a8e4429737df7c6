@@ -1,0 +1,18 @@
+I"^<h2 id="overview">Overview</h2>
+<p>Although there’s a wide range of information on COVID-19 available on the internet, it can be hard to find exactly what you need. There’s currently no easy way to find the most up-to-date and accurate information about COVID-19 for Hawaii residents and visitors. Even within just government-sponsored websites like https://hawaiicovid19.com/ and https://health.hawaii.gov/coronavirusdisease2019/, there’s just too much to look through. The call centers available are currently overloaded with people asking questions like “Where is the nearest testing center?” or “What do I do if my family member tested positive?”</p>
+
+<p>The goal of this project is to provide a one-stop-shop for COVID-19 information related to Hawaii. Besides the chatbot itself which is going to use the Dialogflow Google Cloud Service, we plan to implement three other pages accessible to the admin that allow for easy maintenance of this bot.</p>
+
+<ol>
+  <li>
+    <p>An “Add Intents” page where the admin can fill out a form with fields like “Intent Name”, “Training Phrases”, and “End Response”.</p>
+  </li>
+  <li>
+    <p>A “View Intents” page where the admin can view all intents currently supported by the bot. On this page they can also select an “edit” button which brings them to a form where they can edit the different fields, and a “delete” button where they can delete the selected intent.</p>
+  </li>
+  <li>
+    <p>An “Admin” page where the admin can view statistics like “Top 5 most popular intents” and “Top 5 Questions not answered”.</p>
+  </li>
+</ol>
+
+:ET
